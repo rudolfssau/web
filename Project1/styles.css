@@ -1,0 +1,51 @@
+body {
+  background: url('../img/pexels-flo-maderebner-869258.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+header {
+  background: linear-gradient(180deg, rgba(0,0,0,0.700717787114846) 0%, rgba(255,255,255,0) 100%);
+  padding-bottom: 55px;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 4.5em;
+  float: left;
+  font-style: italic;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  float: right;
+  padding-top: 25px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px 0;
+  font-weight: 500;
+  font-size: 1.5em
+}
+
+nav ul a:hover {
+  font-weight: bolder;
+}
